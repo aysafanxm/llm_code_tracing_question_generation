@@ -1,0 +1,1883 @@
+Requirement,Code,Question1,Question2
+Consider the following Boolean expression in which the int variables x and y have been properly declared and initialized.,(x >= 10) == (y < 12),"Which of the following values for x and y will result in the expression evaluating to true ?
+","Can you think of any edge cases for this expression, and what would be the result in those cases?"
+"Consider the following statement.
+",boolean x = (5 % 3 == 0) == (3 > 5);,"What is the value of x after the statement has been executed?
+",Explain the significance of the '==' and '!=' operators in the given code. How do they influence the final value of the boolean variable x?
+,"class SomeClass
+{
+    public SomeClass()
+    {
+        System.out.print(""Hello "");
+    }
+
+    void printSomething(String name)
+    {
+        System.out.print(""Hello "" + name + "" "");
+    }
+}
+
+public class MainClass
+{
+    public static void main(String[] args)
+    {
+        SomeClass someClass = new SomeClass();
+        someClass.printSomething(""Bob"");
+    }
+}",Assume that SomeClass and MainClass are properly defined in separate files. What is the output of the code in main()?,What is the output of this code when executed?
+,"for (int i = 0; i < 5; i++) {
+   for (int j = 0; j < 5; j++)
+      System.out.println(""*"");
+}",How many stars are output when the following code is executed?,What is the purpose of the inner loop in this code snippet?
+,"for (int i = 1; i < k; i++)
+{
+   if (arr[i] < someValue)
+   {
+     System.out.print(""HELLO"")
+   }
+}",Consider the following code. What is the maximum amount of times that HELLO could possibly be printed?,"If 'someValue' is set to 10 and the elements in the array 'arr' are {8, 12, 5, 3, 15}, how many times will the message ""HELLO"" be printed?"
+,"for (int i = 3; i < 8; i++)
+{
+   System.out.print(i + "" "");
+}",What does the following code print?,"How would the output change if 'System.out.println()' were used instead of 'System.out.print()' in this code snippet?
+"
+,"for (int i = 3; i <= 9; i++)
+{
+   System.out.print(""*"");
+}",How many times does the following method print a *?,What will be the final output of this code snippet when executed?
+,"for (int x = 2; x < 8; x++)
+{
+   System.out.print(""*"");
+}",How many times does the following method print a *?,"If we were to change the condition in the loop to 'x <= 8', how would this affect the output?"
+,"if (score >= 90) grade = ""A"";
+if (score >= 80) grade = ""B"";
+if (score >= 70) grade = ""C"";
+if (score >= 60) grade = ""D"";
+else grade = ""E"";",What is the value of grade when the following code executes and score is 80?,"Can you identify any issues with the current code logic for assigning grades based on scores? If so, how would you modify the code to correct these issues?"
+,"if (x < 0)
+{
+   System.out.println(""x is negative"");
+}
+else if (x == 0)
+{
+   System.out.println(""x is zero"");
+}
+else
+{
+   System.out.println(""x is positive"");
+}",What does the following code print when x has been set to 2000?,What is the output of this code if x = -5?
+,"if (x > 0 || (y / x) == 3)
+   System.out.println(""first case"");
+else
+   System.out.println(""second case"");",What is printed when the following code executes and x has been set to zero and y is set to 3?,What is the significance of using the '||' (OR) operator in this code? How would the output change if it were replaced with the '&&' (AND) operator?
+"Consider the following code segment which is intended to print out the even numbers from 0 to 8 (including 8).
+","int count = 0;
+/* missing loop header */
+{
+    if (count % 2 == 0)
+    {
+        System.out.println(count);
+    }
+    count++;
+}","Which of the following could replace the missing loop header to ensure that the code segment will work as intended to print out the even numbers from 0 to 8?
+","If the code inside the loop is executed with count = 4, what will be the output?"
+,"int main()
+{
+	double num1, num2, num3, avg;
+	cout << “Enter the first number:”;
+	cin >> num1;
+	cout << “Enter the second number:”;
+	cin >> num2;
+	cout << “Enter the third number:”;
+	cin >> num3;
+	avg = num1 + num2 + num3 / 3;
+	cout << “The average is” << avg << ends;
+	return 0;
+}","The program would show me that the average is 40, that's the output, which is incorrect, because the average of 60, 10 plus 20 plus 30 divided by 3 should be 20. Instead it shows me 40, so why?",How would you correct the average calculation to ensure proper precedence of operations?
+,"int r = 1;
+int i = 1;
+while (i <= n):
+{r = r*a;
+i++;
+}","What does this code do for arbitrary values of a and n?
+(try a =2, n=4)",What does this code snippet aim to achieve? Can you determine its purpose based on the given code?
+,"int x = -5;
+while (x < 0)
+{
+   x++;
+   System.out.print(x + "" "");
+}","What does the following code print? (To trace through the code, keep track of the variable x and its value, the iteration of the loop, and the output every time through the loop.)",What is the condition for the while loop to execute?
+,"int x = 10;
+int y = 5;
+
+if (x % 2 == 0 && y % 2 == 0 || x > y)
+{
+    System.out.print(""First "");
+
+    if (y * 2 == x || y > 5 && x <= 10)
+    {
+       System.out.print(""Second "");
+    }
+    else
+    {
+       System.out.print(""Third "");
+    }
+}",Consider the following code segment. What is printed as a result of executing the code segment?,What is the initial value of variables x and y in this code snippet?
+,"int x = 3;
+int y = 2;
+if (y / x > 0)
+   System.out.print(""first "");
+   System.out.print(""second "");",What would the following print?,What is the expected output of this code snippet?
+,"int x = 4, y = 3;
+if (!(x < 3 || y > 2))
+{
+   System.out.println(""first case"");
+}
+else
+{
+   System.out.println(""second case"");
+}",What is printed when the following code executes and x equals 4 and y equals 3?,What is the value of the variables x and y before entering the if statement?
+,"int[] a = {7, 3, -1};
+
+public static int m1(int[] a)
+{
+   a[1]--;
+   return (a[1] * 2);
+}","Given the following field and method declaration, what is the value in a[1] when m1(a) is run?","In the 'return' statement, what is the result of the expression 'a[1] * 2'?"
+,"int[][] matrix = { {1,1,2,2},{1,2,2,4},{1,2,3,4},{1,4,1,2}};
+
+int sum = 0;
+int col = matrix[0].length - 2;
+for (int row = 0; row < 4; row++)
+{
+   sum = sum + matrix[row][col];
+}","Given the following code segment, what is the value of sum after this code executes?",What would happen if the dimensions of the 'matrix' were changed to 3x3 or 5x5? Would the code still work as expected?
+,"List<Integer> aList = new ArrayList<Integer>();
+aList.add(new Integer(1));
+aList.add(new Integer(2));
+aList.remove(1);
+aList.add(1, new Integer(3));
+aList.set(1, new Integer(4));
+aList.add(new Integer(5));
+System.out.println(list);",What is printed as a result of executing the following code segment?,What is the final state of the ArrayList after adding the Integer 5?
+,"List<Integer> list1 = new ArrayList<Integer>();
+list1.add(new Integer(1));
+list1.add(new Integer(2));
+list1.add(new Integer(3));
+list1.remove(1);
+System.out.println(list1);
+",What will print when the following code executes?,How would you modify the code to store and handle floating-point numbers instead of integers?
+,"List<String> list1 = new ArrayList<String>();
+list1.add(""a"");
+list1.add(""b"");
+list1.add(0,""c"");
+list1.set(1, ""d"");
+list1.set(0, ""e"");
+list1.add(""b"");
+System.out.println(list1);
+","What would be the result if we remove the line list1.set(0, ""e"") from the code? How would it affect the final output?",What is printed as a result of executing the following code segment?
+,"private int[ ] a = {-10, -5, 1, 4, 8, 30};
+
+public void doubleLast()
+{
+
+   for (int i = a.length / 2; i < a.length; i++)
+   {
+      a[i] = a[i] * 2;
+   }
+}","If the array 'a' were changed to {-6, -3, 0, 3, 6, 12}, what would be the output after calling the 'doubleLast()' method?",Given the following values of a and the method doubleLast what will the values of a be after you execute doubleLast()?
+,"private int[ ] a = {1, 3, -5, -2};
+
+public void multAll(int amt)
+{
+   int i = 0;
+   while (i < a.length)
+   {
+      a[i] = a[i] * amt;
+      i++;
+   } // end while
+} // end method","How would you rewrite the `multAll` method using a `for` loop instead of a `while` loop?
+",What are the values in a after multAll(3) executes?
+,"private List<Integer> nums;
+
+//precondition: nums.size() > 0
+//nums contains Integer objects
+public void numQuest() {
+   int k = 0;
+   Integer zero = new Integer(0);
+   while (k < nums.size()) {
+      if (nums.get(k).equals(zero))
+         nums.remove(k);
+      k++;
+   }
+}
+","What will be the state of the 'nums' list after executing the 'numQuest()' method if the initial list contains the following integers: [5, 0, 10, 0, 15]?","Assume that nums has been created as an ArrayList object and initially contains the following Integer values [0, 0, 4, 2, 5, 0, 3, 0]. What will nums contain as a result of executing the following method numQuest?"
+,"public class Base
+{
+   public void methodOne()
+   {
+     System.out.print(""A"");
+     methodTwo();
+   }
+
+   public void methodTwo()
+   {
+     System.out.print(""B"");
+   }
+}
+
+public class Derived extends Base
+{
+   public void methodOne()
+   {
+      super.methodOne();
+      System.out.print(""C"");
+   }
+
+   public void methodTwo()
+   {
+     super.methodTwo();
+     System.out.print(""D"");
+   }
+}
+","Can you trace the execution flow for the following code snippet?
+```
+Derived d = new Derived();
+d.methodTwo();
+```","Given the following class declarations, and assuming that the following declaration appears in a client program Base b = new Derived();, what is the result of the call b.methodOne();?"
+,"public class DivisibleBy2or3
+{
+    private static boolean divCheck(int n)
+    {
+        if(n % 2 == 0 || n % 3 == 0)
+        {
+          return true;
+        }
+        return false;
+    }
+
+    public static void main(String[] args)
+    {
+        int[] arr = {6,7,17,3,2,9,1,5};
+        for (int i = 0; i < arr.length; i++)
+        {
+            if(divCheck(arr[i]))
+            {
+                int temp = arr[0];
+                arr[0] = arr[i];
+                arr[i] = temp;
+            }
+        }
+        for (int t = 0; t < arr.length; t++)
+        {
+            System.out.print((arr[t]) + "" "");
+        }
+    }
+}
+",What is the significance of the 'private static boolean' modifier in the divCheck() method?,What is printed when the following main method is executed?
+,"public class MethodTrace
+{
+  public int square(int x)
+  {
+      return x*x;
+  }
+  public int divide(int x, int y)
+  {
+        return x/y;
+  }
+  public static void main(String[] args) {
+      MethodTrace traceObj = new MethodTrace();
+      System.out.println( traceObj.square(2) + traceObj.divide(6,2) );
+  }
+ }","What would be the result of calling the `square` method with a negative number as the input, and why?",What does the following code print out?
+,"public class PrimeOrNot
+{
+    private static boolean check(int n)
+    {
+        for(int i = 2; i < n; i++)
+        {
+            if(n % i == 0)
+                return false;
+        }
+        return true;
+    }
+
+    public static void main(String[] args)
+    {
+        int[] arr = {5,3,2,9,3,4};
+        for (int i = 0; i < arr.length; i++)
+        {
+            if(check(arr[i]))
+            {
+                int temp = arr[0];
+                arr[0] = arr[i];
+                arr[i] = temp;
+            }
+        }
+        for (int t = 0; t < arr.length; t++)
+        {
+            System.out.print((arr[t]) + "","");
+        }
+    }
+}
+",What would happen if the 'check' method was called with the input value of '1'? Is this the expected behavior according to the definition of prime numbers?,What is printed when the following main method is executed?
+,"public class Student {
+   public String getFood() {
+      return ""Pizza"";
+   }
+   public String getInfo()  {
+      return this.getFood();
+   }
+}
+
+public class GradStudent extends Student {
+   public String getFood() {
+      return ""Taco"";
+   }
+}","What is the output of the following code snippet?
+
+```java
+GradStudent gs1 = new GradStudent();
+System.out.println(gs1.getFood());
+```","Given the following class declarations, what is the output from Student s1 = new GradStudent(); followed by s1.getInfo();?"
+Consider the following method.,"public double calculatePizzaBoxes(int numOfPeople, double slicesPerBox)
+{ /*implementation not shown */}",Can you describe a possible implementation for the `calculatePizzaBoxes` method based on the given requirement?,"Which of the following lines of code, if located in a method in the same class as calculatePizzaBoxes, will compile without an error?"
+,"public int sum (int n)
+{
+	if (n -- 1):
+		return 1;
+	else:
+		return n + sum (n-1);
+}","Based on this code snippet, can you infer any programming concepts or techniques that the student is trying to demonstrate or practice?","What value if returned by the method call sum(5)
+"
+,"public static int binarySearch(int[] elements, int target) {
+   int left = 0;
+   int right = elements.length - 1;
+   while (left <= right)
+   {
+      int middle = (left + right) / 2;
+      if (target < elements[middle])
+      {
+         right = middle - 1;
+      }
+      else if (target > elements[middle])
+      {
+         left = middle + 1;
+      }
+      else {
+         return middle;
+      }
+    }
+    return -1;
+}","If the input array 'elements' contains duplicate values, and the target is one of the duplicates, which index of the target value will the binarySearch function return?","Consider the binarySearch method below. How many times would the while loop execute if you first do int[] arr = {2, 10, 23, 31, 55, 86} and then call binarySearch(arr,2)?"
+"Find the odd int
+Given an array of integers, find the one that appears an odd number of times.
+
+There will always be only one integer that appears an odd number of times.
+
+Examples
+
+[7] should return 7, because it occurs 1 time (which is odd).
+[0] should return 0, because it occurs 1 time (which is odd).
+[1,1,2] should return 2, because it occurs 1 time (which is odd).
+[0,1,0,1,0] should return 0, because it occurs 3 times (which is odd).
+[1,2,2,3,3,3,4,3,3,3,2,2,1] should return 4, because it appears 1 time (which is odd).","public static int find_it(int[] seq) 
+  {
+            var oddInt = seq.GroupBy(x => x)
+                        .Where(x => x.Count() > 1 && x.Count() % 2 != 0)
+                        .Select(x => x.Key).FirstOrDefault();
+    
+        return oddInt;
+  }{
+var oddInt = seq.GroupBy(x => x)
+.Where(x => x.Count() > 1 && x.Count() % 2 != 0)
+.Select(x => x.Key).FirstOrDefault();
+return oddInt;
+}""","If the input array contains only one integer, say [7], what will be the output and why?","What if there is only 1 occurance of number -1 ? Your code wouldn't catch it, but it's valid."
+,"public static int mystery(int[] elements, int target)
+ {
+   for (int j = 0; j < elements.length; j++)
+   {
+      if (elements[j] == target)
+      {
+         return j;
+      }
+  }
+  return -1;
+}",What is the significance of returning -1 in the 'mystery' function?,"What would the following code return from mystery([90, -30, 50], 50)?"
+,"public static int product(int n)
+{
+   if(n == 1)
+      return 1;
+   else
+      return n * product(n - 2);
+}",How does the function 'product' handle the input value n = 1?,What is the value of n when this method stops calling itself (when it reaches the base case)?
+,"public static void copyArray(int[] arr1, int[] arr2)
+{
+   for (int i = arr1.length / 2; i < arr1.length; i++)
+   {
+      arr1[i] = arr2[i];
+   }
+}",Can you identify any potential issues or limitations with this code snippet when used in a basic calculator program? How can the code be improved to address these issues?,"Assume that arr1={1, 5, 3, -8, 6} and arr2={-2, -1, -5, 3, -4} what will the contents of arr1 be after copyArray finishes executing?"
+,"public void mystery(int[] a, int i)
+{
+   a[i] = a[i-1] * 2;
+}",How can you modify the code to handle the edge case when `i` is `0` or less?,"Consider the following method. Given an array initialized to {4, 10, 15}, which of the following represents the contents of the array after a call to mystery(array, 2)?"
+,"String s1 = ""abccba"";
+int pos = s1.indexOf(""b"");","What does the `indexOf()` method do in Java, and how is it used in this code snippet?",What is the value of pos after the following code executes?
+,"String s1 = ""baby"";
+String s2 = s1.substring(2);","Suppose we have another variable `String s4 = """"baby"""";`, how can we compare if `s1` and `s4` have the same content?
+",What is the value of s2 after the following code executes?
+,"String s1 = ""Hi"";
+String s2 = ""Bye"";
+int answer = s1.compareTo(s2);","If the value of `s1` is changed to ""Hello"" and `s2` is changed to ""Hello"", what would be the value of `answer`?",What is the value of answer after the following code executes?
+,"String s1 = ""xyz"";
+String s2 = s1;
+String s3 = s2;
+
+I.   s1.equals(s3)
+II.  s1 == s2
+III. s1 == s3","If we change the value of s2 to ""abc"", how would it affect the values of s1 and s3, and what would be the result of comparisons I, II, and III now?","After the following code is executed, which of I, II and/or III will evaluate to true?"
+,"String s1 = new String(""hi"");
+String s2 = new String(""bye"");
+String s3 = new String(""hi"");
+s2 = s1;","If we add a line `s1 = s1.toUpperCase();` after `s2 = s1;`, what will be the values of `s1`, `s2`, and `s3` after executing the entire code?",Which of the following is true after the code executes?
+,!(x == 2 && y > 4),Which of the following is the same as the code below?,What is the result of the given expression when x = 2 and y = 5?
+,"Animal[] a = { new Cat(), new Cow(), new Dog(), new Pig(), new Bird() }
+",If you have a parent class Animal that has a method speak() which returns: Awk. Cat has a speak method that returns: Meow. Bird does not have a speak method. Dog has a speak method that returns: Woof. Pig does not have a speak method. Cow has a speak method that returns: Moo. What is the output from looping through the array a created below and asking each element to speak()?,Can you identify any limitations or issues in this code snippet regarding the addition or removal of animal types in the 'a' array?
+,"class Animal
+{
+    void someSound()
+    {
+        System.out.print(""Screeech "");
+    }
+}
+
+class Cat extends Animal
+{
+    public Cat()
+    {
+        System.out.print(""Meow "");
+        super.someSound();
+    }
+}
+
+class Garfield extends Cat
+{
+    public Garfield()
+    {
+        System.out.print(""Lasagna "");
+    }
+}
+public class MainClass
+{
+    public static void main(String[] args)
+    {
+        Garfield garfield = new Garfield();
+    }
+}
+",What is the output of the following code?,What is the output of the code when executed?
+,"double value = Math.random();
+int num = (int) (value * 11) - 5;","Given the following code segment, what is the value of num when it finishes executing? Math.random() returns a random decimal number between 0 and up to 1, for example 0.4.",What is the output of this code if the randomly generated `value` is 0.5? What if the value is 0 or 1?
+,"for (int i = 0; i <= 8; i++)
+{
+   System.out.print(""*"");
+}",How many times does the following method print a *?,Can you implement a nested loop to create a square pattern of asterisks with 8 rows and 8 columns?
+,"for (int i = 1; i <= 10; i++)
+{
+   System.out.print(i + "" "");
+}",What does the following code print?,What is the scope of the variable `i` in this code snippet?
+,"for (int i = 3; i < 9; i++)
+{
+   System.out.print(""*"");
+}",How many times does the following method print a *?,What condition must be met for the 'for' loop to continue executing?
+,"for (int i = 5; i <= 12; i++)
+{
+   System.out.print(""*"");
+}",How many times does the following method print a *?,What would happen if the loop condition was changed to 'i >= 5'? How would the output be affected and why?
+"Array.diff
+Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result.
+
+It should remove all values from list a, which are present in list b keeping their order.
+
+Kata.arrayDiff(new int[] {1, 2}, new int[] {1}) => new int[] {2}
+If a value is present in b, all of its occurrences must be removed from the other:
+
+Kata.arrayDiff(new int[] {1, 2, 2, 2, 3}, new int[] {2}) => new int[] {1, 3}","function arrayDiff(a, b) {
+  if (a.length === 0) {
+    return [];
+  }
+  if (b.length === 0) {
+    return a;
+  }
+  
+  
+  for (let i = 0; i < b.length; i++) { 
+  
+    let isIncluded = a.includes(b[i])
+  
+    a.forEach(arrItem => {
+      if (isIncluded === true) {
+      
+      let position = a.indexOf(b[i]);
+      a.splice(position, 1);
+    }
+  })
+  }
+  return a;
+}; ","hi,
+
+i'm not very well-versed in js so i'll try to help with the logic of your code. it seems that your program is not handling the cases when:
+
+there are duplicates in a e.g., when a=[1,2,2], b=[1] your program only considers the first 2 and not the second","Is the given code efficient for large lists? If not, can you suggest any improvements to make the code more efficient?"
+,"if (x < .25)
+{
+    System.out.println(""first quartile"");
+}
+else if (x < .5)
+{
+    System.out.println(""second quartile"");
+}
+else if (x < .75)
+{
+    System.out.println(""third quartile"");
+}
+else
+{
+    System.out.println(""fourth quartile"");
+}",What does the following code print when x has been set to .8?,How does the code behave if x is equal to 1?
+,"if (x == 0 || (y / x) == 3)
+{
+   System.out.println(""first case"");
+}
+else
+{
+   System.out.println(""second case"");
+}",What is printed when the following code executes and x has been set to zero and y is set to 3?,"If the requirement was to check if the division of y by x equals 3, how would you modify the code?"
+,"if (x > 0 || (y / x) == 3)
+{
+   System.out.println(""first case"");
+}
+else
+{
+   System.out.println(""second case"");
+}",What is printed when the following code executes and x has been set to 3 and y has been set to 6? Notice that it is now an or (||) instead of and (&&).,What will be the output of this code if `x` is 5 and `y` is 15?
+,"int count = 0;
+/* missing loop header */
+{
+    System.out.print(count + "" "");
+    count += 2;
+}",Consider the following code segment. Which of the following can be used as a replacement for the missing loop header so that the loop prints out “0 2 4 6 8 10”?,"What type of loop (for, while, or do-while) would you add to the missing loop header to ensure the code runs as intended?"
+"Consider the following code segment.
+","int n = 35;
+int result = 1;
+while (n > 0)
+{
+    int d = n % 10;
+    result *= d;
+    n /= 10;
+}
+System.out.println(result);","What is the output after the code has been executed?
+","If the initial value of 'n' was changed to a different number, how would the output change, and can you provide an example?"
+"Consider the following code segment.
+","int speed = 35;
+boolean rain = false;
+
+if (rain)
+{
+   speed -= 10;
+}
+
+if (rain == false)
+{
+  speed += 5;
+}
+
+if (speed > 35)
+{
+   speed = speed - 2;
+}
+
+System.out.println(speed);","What is printed as a result of executing the code segment?
+
+","Can you identify any potential issues with the code segment? If so, what are they, and how might they be resolved?"
+,"int x = -5;
+while (x < 0)
+{
+   x++;
+   System.out.print(x + "" "");
+}",What does the following code print?,How does the value of `x` change during each iteration of the loop?
+,"int x = 2;
+int y = 5;
+
+while (y > 2 && x < y)
+{
+   x = x + 1;
+   y = y - 1;
+}",What are the values of x and y when the code finishes executing?,"After the first iteration of the while loop, what are the values of x and y?
+"
+,"int x = 3;
+int y = 5;
+int z = 2;
+x = z * 2;
+y = y / 2;
+z++;","What are the values of x, y, and z after the following code executes?",What will be the value of z after the statement 'z++;' is executed?
+"Consider the following code segment.
+","int x = 5;
+
+if (x < 5)
+{
+   x = 3 * x;
+}
+
+if (x % 2 == 1)
+{
+   x = x / 2;
+}
+
+System.out.print(2*x + 1);","What is printed as a result of executing the code segment?
+","If the initial value of `x` were changed to a different number, how would the output be affected? Can you provide an example?"
+,"int[][] arr = { {1, 2, 3, 4},
+                {5, 6, 7, 8},
+                {9, 10, 11, 12} };
+int sum = 0;
+for (int[] x : arr)
+{
+    for (int y = 0; y < x.length - 1; y++)
+    {
+         sum += x[y];
+    }
+}
+",Consider the following code segment. What is the value of sum as a result of executing the code segment?,What does the inner loop iterate through in this code snippet?
+,"int[][] points = { {11, 12, 13, 14, 15},
+                    {21, 22, 23, 24, 25},
+                    {31, 32, 33, 34, 35},
+                    {41, 42, 43, 44, 45}};
+ for (int row = 0; row < points.length; row++)
+ {
+     for (int col = points[0].length - 1; col >= row; col--)
+     {
+          System.out.print(points[row][col] + "" "");
+     }
+     System.out.println();
+}",Consider the following code segment. What is the last row of numbers printed when this code segment is executed?,What does 'points.length' and 'points[0].length' represent in this code snippet?
+,"List<Integer> list1 = new ArrayList<Integer>();
+list1.add(1);
+list1.add(2);
+list1.add(3);
+list1.remove(2);
+System.out.println(list1);",What will print when the following code executes?,"After executing the `add()` methods, what is the current state of `list1`?"
+,"List<Integer> list1 = new ArrayList<Integer>();
+list1.add(new Integer(1));
+list1.add(new Integer(2));
+list1.add(new Integer(3));
+list1.set(2, new Integer(4));
+list1.add(2, new Integer(5));
+list1.add(new Integer(6));
+System.out.println(list1);",What is printed as a result of executing the following code segment?,"If we want to remove the element at index 1 from the 'list1', which method should we use, and how does it work?"
+,"List<String> list1 = new ArrayList<String>();
+list1.add(""Anaya"");
+list1.add(""Layla"");
+list1.add(""Sharrie"");
+list1.set(0, ""Destini"");
+list1.add(0, ""Sarah"");
+System.out.println(list1);",How can we retrieve the number of elements in the 'list1' ArrayList after all the operations?,What will print when the following code executes?
+,"private int[ ] a = {-20, -15, 2, 8, 16, 33};
+
+public void doubleLast()
+{
+
+   for (int i = a.length / 2; i < a.length; i++)
+   {
+      a[i] = a[i] * 2;
+   }
+}","If the requirement was to triple the elements in the last half of the array, what changes would you make to the code to fulfill this requirement?",Given the following values of a and the method doubleLast what will the values of a be after you execute doubleLast()?
+,"private int[ ] values = {-20, -15, 2, 8, 16, 33};
+
+public static int getIndexOfLastElementSmallerThanTarget(int[ ] values, int compare)
+{
+   for (int i = values.length - 1; i >=0; i--)
+   {
+      if (values[i] < compare)
+         return i;
+   }
+   return -1; // to show none found
+}
+",Can you think of a more efficient way to solve this problem if the input array is guaranteed to be sorted?,"Given the following code segment (which is identical to the method above) what will be returned when you execute getIndexOfLastElementSmallerThanTarget(values,-13);"
+,"public class AlphaSort
+{
+
+    public static void main(String[] args)
+    {
+        int i, j;
+        String key;
+        String[] letters = {""E"",""D"",""C"",""B"",""A"",""B""};
+        for (j = 1; j < letters.length; j++)
+        {
+            key = letters[j];
+            i = j - 1;
+            while (i >= 0)
+            {
+                if (key.compareTo(letters[i]) > 0)
+                {
+                    break;
+                }
+                letters[i + 1] = letters[i];
+                i--;
+            }
+            letters[i + 1] = key;
+        }
+        for (int t = 0; t < letters.length; t++)
+        {
+            System.out.print((letters[t]) + """");
+        }
+    }
+}",What is the time complexity of this sorting algorithm?,What is printed when the following main method is executed? The break; statement used in this code breaks out of or terminates the loop at that point.
+,"public class Book
+{
+   public String getISBN()
+   {
+      // implementation not shown
+   }
+
+   // constructors, fields, and other methods not shown
+}
+
+public class Dictionary extends Book
+{
+   public String getDefinition(String word)
+   {
+      // implementation not shown
+   }
+
+   // constructors, fields, and methods not shown
+}
+
+Assume that the following declaration appears in a client class.
+
+Book b = new Dictionary();",What is the relationship between the `Book` and `Dictionary` classes in the given code?,"Given the following class declarations and code, what is the result when the code is run?"
+,"public class GradeSort
+{
+   public static void main(String[] args)
+   {
+        String[] names = {""Anna"",""John"",""Billy"",""Bob"",""Roger"",""Dominic""};
+        int[] grades = {93,100,67,84,86, 93};
+        int i, j, first, temp;
+        String temp2;
+        for (i = grades.length - 1; i > 0; i--)
+        {
+            first = 0;
+            for (j = 1; j <= i; j++)
+            {
+                if (grades[j] < grades[first])
+                    first = j;
+            }
+            temp = grades[first];
+            grades[first] = grades[i];
+            grades[i] = temp;
+            temp2 = names[first];
+            names[first] = names[i];
+            names[i] = temp2;
+        }
+        for (int t = 0; t < names.length; t++)
+        {
+            System.out.print((names[t]) + "" "");
+        }
+   }
+}
+","If you wanted to add a feature to this program that also prints the corresponding grades alongside the names, how would you modify the code?",What is printed when the following main method is executed?
+,"public class MethodTrace
+{
+  public void square(int x)
+  {
+      System.out.print(x*x);
+  }
+  public void divide(int x, int y)
+  {
+      System.out.println(x/y);
+  }
+  public static void main(String[] args) {
+      MethodTrace traceObj = new MethodTrace();
+      traceObj.square(5);
+      System.out.print("" and "");
+      traceObj.divide(4,2);
+  }
+ }",What is the output of this code when executed?,What does the following code print out?
+,"public class Searcher
+{
+    private int[] arr = {1,3,5,8,9};
+
+    public int mystery(int low, int high, int num)
+    {
+        int mid = (low + high) / 2;
+        if (low > high) {
+            return -1;   }
+        else if (arr[mid] < num) {
+            return mystery(mid + 1, high, num);   }
+        else if (arr[mid] > num) {
+            return mystery(low, mid - 1, num);   }
+        else
+            return mid;
+    }
+
+    public static void main(String[] args)
+    {
+        Searcher s = new Searcher();
+        System.out.println(s.mystery(0,4,3));
+    }
+}","Explain the time complexity of the 'mystery' algorithm. How does it compare to other search algorithms, such as linear search?",What is printed when the following main method is executed?
+,"public class Temperature
+{
+   private double temperature;
+   public static double maxTemp = 0;
+
+   public Temperature(double t)
+   {
+        temperature = t;
+        if (t > maxTemp)
+            maxTemp = t;
+   }
+
+   public static void main(String[] args)
+   {
+        Temperature t1 = new Temperature(75);
+        Temperature t2 = new Temperature(100);
+        Temperature t3 = new Temperature(65);
+        System.out.println(""Max Temp: "" + Temperature.maxTemp);
+   }
+ }",What is the purpose of the `Temperature` class?,Consider the class Temperature below which has a static variable. What is the output of the main method below?
+,"public int mystery (int n, int a, int d):
+{
+	if (n == 1):
+		return a;
+	else:
+		return d + mystery (n-1, a, d);
+}",Can you identify any opportunities for code optimization or simplification in the function?,"What values if returned by the method call mystery(3, 2, 6)?"
+,"public int[] mystery(int[] a, int i, int value)
+{
+   a[i + 1] = a[i] + value;
+   return a;
+}","What is the purpose of the `return a;` statement in this method, considering the input array `a` is directly modified within the method?","Consider the following method. Which of the following code segments, appearing in the same class as the mystery method, will result in array2 having the contents {5, 10, 20}?"
+,"public static int bunnyEars(int bunnies)
+{
+   if (bunnies == 0) return 0;
+   else if (bunnies == 1) return 2;
+   else return 2 + bunnyEars(bunnies - 1);
+}",What are the advantages and disadvantages of using recursion in this problem? Can you think of an alternative solution using iteration?,What is/are the values of the variable bunnies when this method stops calling itself (when it reaches the base case)?
+,"public static int mystery(int n, int a)
+{
+  if (n == 1) return a;
+  return a * mystery(n-1,a);
+}
+","What is the output if the 'mystery' function is called with the arguments (3, 4)?","Given the method defined below what does the following print mystery(4,3)?"
+,"public static int mystery(int[] elements, int target)
+ {
+   for (int j = 0; j < elements.length; j++)
+   {
+      if (elements[j] == target)
+      {
+         return j;
+      }
+  }
+  return -1;
+}","If the `mystery` function is called with the following parameters: `mystery(new int[]{4, 7, 2, 9, 5}, 9)`, what would be the output?","What would the following code return from mystery([90, -30, 50], -20)?"
+,"public static int redo(int i, int j)
+{
+   if (i==0)
+      return 0;
+   else
+      return redo(i/j, j)+1;
+}
+",What is the purpose of this 'redo' function in the context of the calculator program requirement? How does it relate to the arithmetic operations?,"Given the following method declaration, what will redo(82, 3) return?"
+,"public static void mystery (int x) {
+   System.out.print(x % 10);
+
+   if ((x / 10) != 0) {
+      mystery(x / 10);
+   }
+   System.out.print(x % 10);
+}",What will be the output if we call the mystery method with the input value 123?,Given the method defined below what does the following print mystery(1234)?
+"Consider the following methods, which appear in the same class.
+","public void splitPizza(int numOfPeople)
+{
+    int slicesPerPerson = 8/numOfPeople;
+    /* INSERT CODE HERE */
+}
+
+public void printSlices(int slices)
+{
+    System.out.println(""Each person gets "" + slices + "" slices each"");
+}","How would you modify the code to allow for a different number of slices per pizza (e.g., 10 slices instead of 8)?",Which of the following lines would go into /* INSERT CODE HERE */ in the method splitPizza in order to call the printSlices method to print the number of slices per person correctly?
+,"String s1 = ""ac ded ca"";
+int pos = s1.indexOf(""d"");","What would be the value of `pos` if the search string ""d"" was not present in `s1`?",What is the value of pos after the following code executes?
+,"String s1 = ""Hey, buddy!"";
+int len = s1.length();",What would happen if we try to access the character at an index greater than or equal to `len` using the `charAt` method?,What is the value of len after the following executes?
+,"String s1 = ""Hi"";
+String s2 = s1.substring(0,1);
+String s3 = s2.toLowerCase();",Can you describe the step-by-step process of how this code snippet executes and the intermediate values of each variable at each step?,What is the value of s1 after the following code executes?
+,"String s1 = new String(""hi there"");
+int pos = s1.indexOf(""e"");
+String s2 = s1.substring(0,pos);",What would happen if the character passed to the `indexOf` method is not present in the string `s1`? How would that affect the value of `s2`?,What is the value of s2 after the following code executes?
+,"System.out.println(""13"" + 5 + 3);","What is the output of this code, and why does it produce that output considering the order of operations and data types involved?",What does the following code print?
+,!(x!=5 && y!=7),Which of the following is the same as the code below?,How could you simplify this expression using De Morgan's laws?
+,"ArrayList<Integer> list1 = new ArrayList<Integer>();
+list1.add(1);
+list1.add(2);
+list1.add(3);
+list1.add(2, 4);
+list1.add(5);
+System.out.println(list1);
+",What will print when the following code executes?,"In the line `list1.add(2, 4);`, what do the numbers `2` and `4` represent?"
+,"class SomeClass
+{
+    int someVar;
+}
+
+public class MainClass
+{
+    public static void main(String[] args)
+    {
+        SomeClass x = new SomeClass();
+        System.out.println(x.someVar);
+    }
+}",Assume that SomeClass and MainClass are properly defined in separate files. What is the output of main()?,What will be the output of the `System.out.println(x.someVar);` statement in the `main` method?
+,"double value = Math.random();
+int num = (int) (value * 5) + 5;","Given the following code segment, what is the value of num when it finishes executing? Math.random() returns a random decimal number between 0 and up to 1, for example 0.4.","What is the purpose of the `Math.random()` method in the given code snippet, and what range of values can it generate?"
+,"for (int i = 1; i < 5; i++)
+{
+   System.out.print(""*"");
+}",How many times does the following method print a *?,"If you wanted to create a loop that iterates in reverse, starting from 4 and going down to 1, what changes would you make to the loop initialization, condition, and update statements?"
+,"for (int i = 2; i < 8; i++)
+{
+    for (int y = 1; y <= 5; y++)
+    {
+        System.out.print(""*"");
+    }
+    System.out.println();
+}",What does the following code print?,How can we modify this code snippet to allow the user to input the number of rows and columns for the pattern?
+,"for (int i = 3; i <= 12; i++)
+{
+   System.out.print(i + "" "");
+}",What does the following code print?,"If we wanted to display the numbers in reverse order (i.e., from 12 to 3), how would you modify the loop?"
+,"for (int k = 0; k < 20; k+=2) {
+   if (k % 3 == 1)
+      System.out.print(k + "" "");
+}",What is printed as a result of the following code segment?,How does the value of 'k' change during each iteration?
+,"I.   if (x > 66)
+     {
+       System.out.println(""High"");
+     }
+     else if (x > 33)
+     {
+       System.out.println(""Medium"");
+     }
+     else {
+       System.out.println(""Low"");
+     }
+
+II.  if (x < 33)
+     {
+       System.out.println(""Low"");
+     }
+     else if (x < 66)
+     {
+       System.out.println(""Medium"");
+     }
+     else {
+       System.out.println(""High"");
+     }
+
+III. if (x >= 66)
+     {
+       System.out.println(""High"");
+     }
+     if (x >= 33)
+     {
+       System.out.println(""Medium"");
+     }
+     if (x < 33)
+     {
+       System.out.println(""Low"");
+     }","Assume an int variable x has been properly declared and initialized. Which of the following code segments will print out “High” if x is 66 and above, “Medium” is x is between 33-65, and “Low” if x is below 33.",What is the output of Code III if the value of x is 33?
+,"if (x < 0)
+{
+   System.out.println(""x is negative"");
+}
+else if (x == 0)
+{
+    System.out.println(""x is zero"");
+}
+else
+{
+    System.out.println(""x is positive"");
+}",What does the following code print when x has been set to 187?,What is the output of this code if the value of x is 10?
+,"if (x > 0 && (y / x) == 3)
+{
+   System.out.println(""first case"");
+}
+else
+{
+   System.out.println(""second case"");
+}",What is printed when the following code executes and x has been set to 0 and y to 3?,"If the requirement was to print ""first case"" when x is positive and y is divisible by x, does this code snippet fulfill that requirement? If not, what changes would you make to the code?"
+"Consider the following code segment where a range of “High”, “Middle”, or “Low” is being determined where x is an int and a “High” is 80 and above, a “Middle” is between 50 - 79, and “Low” is below 50.","if (x >= 80)
+{
+   System.out.println(""High"");
+}
+
+if (x >= 50)
+{
+  System.out.println(""Middle"");
+}
+else
+{
+   System.out.println(""Low"");
+}","Which of the following initializations for x will demonstrate that the code segment will not work as intended?
+",What is the output of this code if the value of x is 45?
+,"int count = 1;
+while (count <= 10)
+{
+    count *= 2;
+}
+count = count - 10;","Consider the following code segment. What is count’s value after running this code segment? (To trace through the code, keep track of the variable count and its value through each iteration of the loop.)",Can you think of a real-world scenario where this code snippet might be useful?
+Identify the reverse digits on a credit card,"int n = 365;
+int sum = 0;
+while (n > 0)
+{
+	int digit = n % 10;
+	sum = sum + digit;
+	n = n/10;
+}
+System.out.println(sum);",Is n larger than 0? (repeat),"What is the purpose of the variable 'n' in this code, and how does it relate to the given requirement?"
+,"int var1 = 0;
+int var2 = 2;
+
+while ((var2 != 0) && ((var1 / var2) >= 0))
+{
+   var1 = var1 + 1;
+   var2 = var2 -1;
+}",What are the values of var1 and var2 when the code finishes executing?,"Can this code handle negative numbers for the initial values of `var1` and `var2`? If yes, how will the loop behave in such a scenario? If no, why not?"
+,"int x = 0;
+int y = 1;
+int z = 2;
+x--;
+y++;
+z+=y;","What are the values of x, y, and z after the following code executes?","What are the final values of x, y, and z after the code snippet has been executed?"
+,"int x = 3;
+if (x > 2)
+{
+    x = x * 2;
+}
+if (x > 4)
+{
+   x = 0;
+}
+System.out.print(x);",Consider the following code segment. What is printed as a result of executing the code segment?,"Are there any edge cases or limitations in this code that you can identify? If so, can you suggest improvements to handle those cases?"
+,"int x = 3;
+while (x < 9)
+{
+   System.out.print(x + "" "");
+}",What does the following code print?,"How can you modify the code to display the numbers from 3 to 9, inclusive?"
+,"int[ ] numbers = {44, 33, 22, 11};
+for (int num : numbers)
+{
+    num *= 2;
+}
+for (int num : numbers)
+{
+    System.out.print(num + "" "");
+}",What is the output of the following code segment?,What would happen if we removed the first 'for' loop from the code? How would the output change?
+,"int[][] arr = { {3,2,1},{1,2,3}};
+int value = 0;
+for (int row = 1; row < arr.length; row++) {
+   for (int col = 1; col < arr[0].length; col++) {
+      if (arr[row][col] % 2 == 1)
+      {
+          arr[row][col] = arr[row][col] + 1;
+      }
+      if (arr[row][col] % 2 == 0)
+      {
+          arr[row][col] = arr[row][col] * 2;
+      }
+   }
+}",What are the contents of arr after the following code has been executed?,"What is the initial value of the variable 'value', and does it change during the execution of the code?"
+,"int[][] ticketInfo = { {25,20,25}, {25,20,25} };
+String[][] seatingInfo = { {""Jamal"", ""Maria""}, {""Jake"", ""Suzy""}, {""Emma"", ""Luke""} };
+int value = ticketInfo[1][0];
+String name = seatingInfo[0][1];",What is the value of name after the code above executes?,"If you were to add more rows to the 'ticketInfo' array, would it still be compatible with the 'seatingInfo' array? Explain your reasoning."
+,"List<Integer> list1 = new ArrayList<Integer>();
+list1.add(1);
+list1.add(2);
+list1.add(3);
+list1.set(2, 4);
+list1.add(2, 5);
+list1.add(6);
+System.out.println(list1);
+",What will print when the following code executes?,What is the final state of `list1` after all the `add()` and `set()` operations?
+,"List<Integer> numList = new ArrayList<Integer>();
+numList.add(new Integer(1));
+numList.add(new Integer(2));
+numList.add(new Integer(3));
+numList.set(2,new Integer(4));
+numList.add(1, new Integer(5));
+numList.add(new Integer(6));
+System.out.println(numList);
+",Can you modify the given code to store and display a list of floating-point numbers (doubles) instead of integers?,What will print when the following code executes?
+,"List<String> list1 = new ArrayList<String>();
+list1.add(""Anaya"");
+list1.add(""Layla"");
+list1.add(""Sharrie"");
+list1.set(1, ""Destini"");
+list1.add(1, ""Sarah"");
+System.out.println(list1);",How would you retrieve the size (number of elements) of `list1` after all the operations have been performed?,What will print when the following code executes?
+,"private int[ ] a = {-20, -15, 2, 8, 16, 33};
+
+public void mystery()
+{
+
+   for (int i = 0; i < a.length/2; i+=2)
+   {
+      a[i] = a[i] * 2;
+   }
+}","After the 'mystery' method has been executed, what will be the new values of the array 'a'?",Given the following values of a and the method mystery what will the values of a be after you execute mystery()?
+,"private List<Integer> numList;
+public void mystery(int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        Integer obj = numList.remove(0);
+        numList.add(obj);
+    }
+}
+",What would be the state of `numList` after executing the `mystery` method with an input `n` equal to the size of `numList`?,"Assume that numList has been initialized with the following Integer objects [0, 1, 2, 3, 4]. What is the value of numList after mystery(5) executes?"
+,"public class BankAccount
+{
+    private int accountID;
+    private double total;
+
+    public BankAccount(int id, double initialDeposit)
+    {
+        accountID = id;
+        total = initialDeposit;
+    }
+
+    public void deposit(double money)
+    {
+        total = total + money;
+    }
+
+    public void withdraw(double money)
+    {
+        total = total - money;
+    }
+
+    public void printCurrentTotal()
+    {
+        System.out.print(total);
+    }
+
+    public static void main(String[] args)
+    {
+        BankAccount newAccount = new BankAccount(12345, 100.00);
+        newAccount.withdraw(30.00);
+        newAccount.deposit(40.00);
+        newAccount.printCurrentTotal();
+    }
+}","In the main method, a new BankAccount object is created with accountID as 12345 and an initial deposit of 100.","Given the BankAccount class definition below, what is the output of the code in the main method?"
+,"public class Car
+{
+   private int fuel;
+
+   public Car() { fuel = 0; }
+   public Car(int g) { fuel = g; }
+
+   public void addFuel() { fuel++; }
+   public void display() { System.out.print(fuel + "" ""); }
+}
+
+public class RaceCar extends Car
+{
+   public RaceCar(int g) { super(2*g); }
+}
+
+What is the result when the following code is compiled and run?
+
+Car car = new Car(5);
+Car fastCar = new RaceCar(5);
+car.display()
+car.addFuel();
+car.display();
+fastCar.display();
+fastCar.addFuel();
+fastCar.display();
+",What will be the output of the `car.display()` method call after the `car.addFuel()` method is called?,"Given the following class declarations and code, what is the result when the code is run?"
+,"public class GuestList
+{
+    public static void main(String[] args)
+    {
+        int count = 0;
+        String[] guestList = {""Anna"", ""Briana"", ""Alex"", ""John""};
+        String subj1 = null;
+        String subj2 = null;
+        for (int j = 0; j < guestList.length; j++)
+        {
+            subj1 = guestList[j].substring(0,1);
+            subj2 = guestList[j].substring(guestList[j].length()-1);
+            if(subj1.equalsIgnoreCase(subj2))
+            {
+                count--;
+            }
+            else if(subj1.equalsIgnoreCase(""a""))
+            {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+}
+",In what scenario would the 'count' variable have a negative value after the loop?,What is printed when the following main method is executed?
+,"public class NumberCount
+{
+    public static void main(String[] args)
+    {
+        int count = 0;
+        int[] numbers = {-5,4,-5,3,-2,-4};
+        for (int j = 0; j < numbers.length; j++)
+        {
+            if(numbers[j] < 0 && numbers[j] % 2 != 0)
+            {
+                count++;
+            }
+        }
+    System.out.println(count);
+    }
+}
+",What is the purpose of the 'NumberCount' class in this code?,What is printed when the following main method is executed?
+,"public class Shape {
+   public void what() { System.out.print(""Shape "");}
+
+   public static void main(String[] args) {
+
+      Shape[] shapes = {new Shape(), new Rectangle(), new Square(),
+                        new Circle()};
+      for (Shape s : shapes)
+      {
+         s.what();
+         System.out.print("" "");
+      }
+   }
+
+}
+
+class Rectangle extends Shape {
+   public void what() { System.out.print(""Rectangle ""); }
+}
+
+class Square extends Rectangle {
+}
+
+class Oval extends Shape {
+   public void what() { System.out.print(""Oval ""); }
+}
+
+class Circle extends Oval {
+   public void what() { System.out.print(""Circle "");}
+}
+",What would happen if we add a new 'Oval' object to the 'shapes' array? How would it affect the output?,What is the output from running the main method in the Shape class?
+,"public class Test
+{
+   String someFunc(String str)
+   {
+       return someOtherFunc(str + "" Hoo"");
+   }
+
+   String someOtherFunc(String str)
+   {
+       return ""Hoo "" + str;
+   }
+
+   public static void main(String[] args)
+   {
+       Test x = new Test();
+       System.out.print(""Woo "" + x.someFunc(""Woo""));
+   }
+}",What will be the output of the code when executed?,What is the output of the following code?
+,"public int recur1(int a)
+{if (a <=0)
+	return 0;
+return 3 + recur1(a-2);
+}",Can you explain the flow of recursive calls when the input value for 'a' is 6?,What is the result of recur1(6)?
+,"public static boolean check(String s)
+{
+   return s.length() >= 2 &&
+          (s.charAt(0) == s.charAt(1) ||
+           check(s.substring(1)));
+}
+",What is the time complexity of the 'check' function? Explain how you arrived at your answer.,"Given the following method declaration, this method will return true if and only if"
+,"public static int f(int n)
+{
+   if (n == 0)
+      return 0;
+   else if (n == 1)
+      return 1;
+   else return f(n-1) + f(n-2);
+}",How could you modify the function to accept an additional parameter and calculate a different sequence?,"Given the following method declaration, what value is returned as the result of the call f(5)?"
+,"public static int mystery(int n)
+{
+   if (n == 0)
+      return 1;
+   else
+      return 2 * mystery (n - 1);
+}",Can you rewrite the mystery function using an iterative approach instead of recursion?,Given the method defined below what does the following return mystery(5)?
+,"public static int mystery(String str)
+{
+   if (str.length() == 1) return 0;
+   else
+   {
+      if (str.substring(0,1).equals(""y"")) return 1 +
+                           mystery(str.substring(1));
+      else return mystery(str.substring(1));
+   }
+}
+",What does the `str.substring(1)` expression do?,Given the method defined below what does the following return mystery(“xyzxyxy”)? Note that this recursive method traverses a String.
+,"public static int test(int[] a, int v)
+{
+    for (int i = 0; i < a.length; i++)
+    {
+        if (a[i] == v)
+            return i;
+        else return -1;
+    }
+}","Can you explain the purpose of the 'for' loop in this code?
+","What would test return if a = {1,2,3,4} and v = 3?"
+"Consider the following methods, which appear in the same class.","public void celsiusToFahrenheit(double cTemp)
+{
+    double fTemp = (cTemp * 9)/5 + 32;
+    printTemperature(cTemp, fTemp);
+}
+
+public void printTemperature(double celsius, double fahrenheit)
+{
+    System.out.print(celsius + ""-->"" + fahrenheit);
+}",How would the output change if the formula in the `celsiusToFahrenheit` method were altered to `(cTemp * 9.0)/5.0 + 32`?,"Assume that the method call celsiusToFahrenheit(5) appears in a method in the same class. What is printed as a result of the method call?
+
+"
+"Consider the following code segment.
+","String message = new String(""AP Practice"");
+String note = new String(""AP Practice"");
+String memo = new String(""memo"");
+int i = 5;
+
+if (message.equals(note) && !message.equals(""memo""))
+{
+    message = note;
+
+    if (message == note && message.length() > i)
+    {
+       i = 3;
+       memo = message.substring(i);
+    }
+}",What is the condition being checked in the nested `if` statement? Explain the usage of `==` and `length()` in this condition.,"Which of the following expressions evaluate to true after the code segment above executes?
+"
+,"String s1 = ""baby"";
+int len = s1.length();",What is the value of the variable 'len' after executing the given code snippet?,What is the value of len after the following code executes?
+,"String s1 = ""Hey"";
+String s2 = s1.substring(0,1);
+String s3 = s2.toLowerCase();
+",What is the purpose of the `toLowerCase` method and what will be the value of `s3` after it is called on `s2`?,What is the value of s1 after the following code executes?
+,"String s1 = ""Hi"";
+String s2 = s1.substring(0,1);
+String s3 = s2.toLowerCase();",Can you think of any edge cases or scenarios where this code snippet might behave unexpectedly?,What is the value of s3 after the following code executes?
+,"String s1 = new String(""hi"");
+String s2 = new String(""bye"");
+String s3 = new String(""hi"");",What would be the output if we print the result of s1 == s3?,Which of the following is true after the code executes?
+"Sum of Digits / Digital Root
+Digital root is the recursive sum of all the digits in a number.
+
+Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. The input will be a non-negative integer.
+
+Examples
+
+    16  -->  1 + 6 = 7
+   942  -->  9 + 4 + 2 = 15  -->  1 + 5 = 6
+132189  -->  1 + 3 + 2 + 1 + 8 + 9 = 24  -->  2 + 4 = 6
+493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11  -->  1 + 1 = 2","using System; public class Number { static int res;
+
+public int DigitalRoot(long n) { var str = n.ToString(); int length = str.Length; do { res = 0; for (int i = 0; i < str.Length; i++) { int conv = (int)Char.GetNumericValue(str[i]); res += conv; }
+
+        length--;
+        str = res.ToString();
+        
+        
+    } while (length != 1);
+
+    return res;
+} }","How does the code handle the case when the input is a single digit number, like 9?","That's a problem with your code, not a kata issue. You have an infinite loop if the initial number is a single digit number. Please read this: https://docs.codewars.com/training/troubleshooting#post-discourse"
+,!(x<= 5 && y > 7),Which of the following is the same as the code below?,"Can you create a simple Java program that takes two integer inputs for x and y, evaluates this expression, and prints the result?"
+,"ArrayList<String> list1 = new ArrayList<String>();
+list1.add(""Anaya"");
+list1.add(""Layla"");
+list1.add(""Sharrie"");
+list1.add(1, ""Sarah"");
+System.out.println(list1);
+",What will print when the following code executes?,What modifications would be necessary to store a collection of different data types in the list1 ArrayList?
+,"class SomeClass
+{
+    int someVar;
+}
+
+public class MainClass
+{
+    public static void main(String[] args)
+    {
+        SomeClass x;
+        System.out.println(x.someVar);
+    }
+}",Assume that SomeClass and MainClass are properly defined in separate files. What is the output of main()?,"What would happen if you change the data type of `someVar` to a different primitive data type, such as `double` or `boolean`? How would the output change, if at all?"
+,"for (int i = 0; i < 5; i++)
+{
+    for (int j = 3; j >= 1; j--)
+    {
+        System.out.print(""*"");
+    }
+    System.out.println();
+}",What does the following code print?,"What is the initial value of the variable 'j' in the inner loop, and how does it change in each iteration?"
+,"for (int i = 1; i < 7; i++)
+{
+    for (int y = 1; y <= 5; y++)
+    {
+        System.out.print(""*"");
+    }
+    System.out.println();
+}
+",What does the following code print?,"If we wanted to print a different character instead of an asterisk, which part of the code would need to be modified?"
+,"for (int i = 3; i < 8; i++)
+{
+    for (int y = 1; y < 5; y++)
+    {
+        System.out.print(""*"");
+    }
+    System.out.println();
+}",How many times does the following code print a *?,How would you modify the code to create a pattern where each row has a number of asterisks equal to the current iteration number of the outer loop?
+,"for (int i = 3; i <= 9; i++)
+{
+   for (int j = 6; j > 0; j--)
+   {
+       System.out.print(""*"");
+   }
+   System.out.println();
+}",What does the following print?,"If we want to create a pyramid pattern with asterisks, how would you modify the loops and the code inside them?"
+,"for (int x = 0; x < 5; x++)
+{
+   System.out.print(""*"");
+}",How many times does the following method print a *?,What will be the output of this code after its complete execution?
+,"if (!(x < 3 || y > 2))
+   System.out.println(""first case"");
+else
+   System.out.println(""second case"");
+",What is printed when the following code executes and x equals 4 and y equals 3?,"What are the possible scenarios that would lead to the """"first case"""" output?
+"
+,"if (x < 0)
+{
+   System.out.println(""x is negative"");
+}
+else if (x == 0)
+{
+   System.out.println(""x is zero"");
+}
+else
+{
+   System.out.println(""x is positive"");
+}",What does the following code print when x has been set to -5?,Can you explain the flow of the code based on the given conditions for x?
+,"if (x > 0 && (y / x) == 3)
+{
+   System.out.println(""first case"");
+}
+else
+{
+   System.out.println(""second case"");
+}",What is printed when the following code executes and x has been set to 3 and y has been set to 6?,"If x = 3 and y = 9, which case will be executed, and why?
+"
+"Bit Counting
+Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.
+
+Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case
+","import org.junit.Test; import static org.junit.Assert.assertEquals; import org.junit.runners.JUnit4;
+
+public class Main { public static void main(String[] args) { System.out.println("" ""); assertEquals(5, countBits(1234)); System.out.println("" ""); assertEquals(1, countBits(4)); System.out.println("" ""); assertEquals(3, countBits(7)); System.out.println("" ""); assertEquals(2, countBits(9)); System.out.println("" ""); assertEquals(2, countBits(10)); }
+
+public static int countBits(int numero) {
+    if (numero <= 0) {
+        return 0;
+    }
+
+    String numeroEnBinario = Long.toBinaryString(numero);
+
+    String y;
+    y = numeroEnBinario.replaceAll(""0"", """");
+
+    System.out.println(y);
+    System.out.println(numero + "" tiene "" + y.length() + "" números 1"");
+
+    Integer numeroEnBinarioInt = null;
+    try {
+        numeroEnBinarioInt = Integer.valueOf(y);
+    } catch (NumberFormatException ex) {
+        ex.printStackTrace();
+    }
+
+    String numeroEnBinarioString= String.valueOf(numeroEnBinarioInt);
+    int respuesta = numeroEnBinarioString.length();
+
+    return respuesta;
+}
+}",That's a problem with your code not a kata issue. For some input values your numeroEnBinarioString value is null. Read this: https://docs.codewars.com/training/troubleshooting,What would be the output if the input is 255?
+,"int i = 0;
+while (i <= 4)
+{
+  for (int j = 0; j < 3; j++)
+  {
+    System.out.println(""Hi!"");
+  }
+  i++;
+}",Consider the following code segment. How many times is the string “Hi!” printed as a result of executing the code segment?,"What will be the output of this code if we replace 'System.out.println(""""Hi!"""");' with 'System.out.print(""""Hi! """");' and add 'System.out.println();' after the inner for loop?"
+Identify the reverse digits on a credit card,"int n = 365;
+int sum = 0;
+while (n > 0)
+{
+	int digit = n % 10;
+	sum = sum + digit;
+	n = n/10;
+}
+System.out.println(sum);",What are we printing?,"If the requirement was to identify the reverse digits on a credit card and then return them as a single integer, how would you modify the code to accomplish this?"
+,"int var1 = 0;
+int var2 = 2;
+
+while ((var2 != 0) && ((var1 / var2) >= 0)) {
+   var1 = var1 + 1;
+   var2 = var2 - 1;
+}",What are the values of var1 and var2 after the following code segment is executed and the while loop finishes?,What will be the final values of `var1` and `var2` after the loop terminates?
+,"int x = 0;
+while (x <= 5)
+{
+   System.out.print(x + "" "");
+   x++;
+}",What does the following code print?,What would happen if the 'x++' statement was removed from the loop body?
+,"int x = 3;
+int y = 2;
+if (x > 2)
+   x++;
+if (y > 1)
+   y++;
+if (x > 2)
+   System.out.print(""first "");
+if (y < 3)
+   System.out.print(""second "");
+System.out.print(""third"");",What would the following print?,"What is the final output of the code snippet, considering the conditions and execution of the `if` statements?
+"
+,"int x = 4, y = 3;
+if (!(x < 3 && y > 2))
+{
+   System.out.println(""first case"");
+}
+else
+{
+   System.out.println(""second case"");
+}",What is printed when the following code executes and x equals 4 and y equals 3?,Can you describe the logical flow of this code snippet step-by-step?
+,"int[ ] values = {-20, -15, 2, 8, 16, 33};
+
+public static int getIndexOfLastElementSmallerThanTarget(int[] values, int compare)
+{
+   for (int i = values.length; i >=0; i--)
+   {
+      if (values[i] < compare)
+         return i;
+   }
+   return -1; // to show none found
+}","Given the following code segment (which is identical to the method above) what will be returned when you execute getIndexOfLastElementSmallerThanTarget(values, 7);","What happens if we call the function with 'getIndexOfLastElementSmallerThanTarget(values, -25)'? Explain your answer."
+,"int[][] m = { {1,1,1,1},{1,2,3,4},{2,2,2,2},{2,4,6,8}};
+
+int sum = 0;
+for (int k = 0; k < m.length; k++) {
+    sum = sum + m[m.length-1-k][1];
+}
+","Given the following code segment, what is the value of sum after this code executes?",What is the role of the expression 'm[m.length-1-k][1]' in the code?
+,"List<Integer> aList = new ArrayList<Integer>();
+aList.add(new Integer(1));
+aList.add(new Integer(2));
+aList.add(1, new Integer(5));
+aList.set(1, new Integer(4));
+aList.add(new Integer(6));
+aList.add(new Integer(3));
+System.out.println(aList);
+",What is printed as a result of executing the following code segment?,What is the final size of the `aList` after all the `add()` and `set()` operations are executed?
+,"List<Integer> list1 = new ArrayList<Integer>();
+list1.add(new Integer(1));
+list1.add(new Integer(2));
+list1.add(new Integer(3));
+list1.remove(1);
+System.out.println(list1);
+",What will print when the following code executes?,"If we wanted to add more elements to the list, how would you modify the code to achieve this?"
+,"List<String> list1 = new ArrayList<String>();
+list1.add(""a"");
+list1.add(""b"");
+list1.add(0,""c"");
+list1.add(1, ""d"");
+list1.set(2, ""e"");
+list1.add(""f"");
+System.out.println(list1);",What is the final output of the 'System.out.println(list1);' statement?,What is printed as a result of executing the following code segment?
+,"nums.add(6);
+nums.add(0,4);
+nums.remove(1);",What will be the final state of the nums list after all the lines of code are executed?,"What is in the list nums if it initially contained {5, 3, 1} and the following code is executed?"
+,"private int[ ] a = {1, 3, -5, -2};
+
+public void mult(int amt)
+{
+   int i = 0;
+   while (i < a.length)
+   {
+      a[i] = a[i] * amt;
+   } // end while
+} // end method",What happens to the elements of the array 'a' after the 'mult' method is called with an argument 'amt' equal to 2?,What are the values in a after mult(2) executes?
+,"private List<Integer> nums;
+
+// precondition: nums.size() > 0;
+// nums contains Integer objects
+public void numQuest()
+{
+  int k = 0;
+  Integer zero = new Integer(0);
+  while (k < nums.size())
+  {
+   if (nums.get(k).equals(zero))
+     nums.remove(k);
+   else
+      k++;
+  }
+}
+","What will happen after executing the numQuest() method if the input list nums is [0, 3, 5, 0, 7, 0, 9]?","Given the following code and assume that nums initially contains [0, 0, 4, 2, 5, 0, 3], what will nums contain as a result of executing numQuest?"
+,"public class Base
+{
+   public void methodOne()
+   {
+      System.out.print(""A"");
+      methodTwo();
+   }
+
+   public void methodTwo()
+   {
+      System.out.print(""B"");
+   }
+}
+
+public class Derived extends Base
+{
+   public void methodOne()
+   {
+      super.methodOne();
+      System.out.print(""C"");
+   }
+
+   public void methodTwo()
+   {
+      super.methodTwo();
+      System.out.print(""D"");
+   }
+}","If we remove the 'super' keyword from the 'methodOne()' in the Derived class, what would be the output of the following code execution?
+```
+Derived derivedObject = new Derived();
+derivedObject.methodOne();
+```",Assume that Base b = new Derived(); appears in a client program. What is the result of the call b.methodOne();?
+,"public class Car
+{
+  private int fuel;
+
+  public Car() { fuel = 0; }
+  public Car(int g) { fuel = g; }
+
+  public void addFuel() { fuel++; }
+  public void display() { System.out.print(fuel + "" ""); }
+
+  public static void main(String[] args)
+  {
+     Car car = new Car(5);
+     Car fastCar = new RaceCar(5);
+     car.display();
+     car.addFuel();
+     car.display();
+     fastCar.display();
+     fastCar.addFuel();
+     fastCar.display();
+  }
+
+}
+
+class RaceCar extends Car
+{
+  public RaceCar(int g) { super(2*g); }
+}
+",What is the purpose of the Car class and its methods?,What is the output from running the main method in the Car class?
+"Consider the following class definition.
+","public class Liquid
+{
+    private double boilingPoint;
+    private double freezingPoint;
+    private double currentTemp;
+
+    public Liquid()
+    {
+        currentTemp = 50;
+    }
+
+    public void lowerTemp()
+    {
+        currentTemp -= 10;
+    }
+
+    public double getTemp()
+    {
+        return currentTemp;
+    }
+}
+
+Assume that the following code segment appears in a class other than Liquid.
+
+Liquid water = new Liquid();
+water.lowerTemp();
+System.out.println(water.getTemp());
+","How can you add a method to check if the liquid is in a solid, liquid, or gaseous state based on the current temperature, boiling point, and freezing point?","What is printed as a result of executing the code segment?
+"
+,"public class OddEvenMod
+{
+    public static void main(String[] args)
+    {
+        int[] arr = {8,7,7,3,4,1};
+        for (int i = 0; i < arr.length; i++)
+        {
+            if(arr[i] % 2 == 0)
+            {
+                int temp = arr[0];
+                arr[0] = arr[i];
+                arr[i] = temp;
+            }
+        }
+        for (int t = 0; t < arr.length; t++)
+        {
+            System.out.print((arr[t]) + "","");
+        }
+    }
+}
+",What will be the final output of this code when executed?,What is printed when the following main method is executed?
+,"public class Student {
+
+   public String getFood() {
+      return ""Pizza"";
+   }
+
+   public String getInfo()  {
+     return this.getFood();
+   }
+
+   public static void main(String[] args)
+   {
+     Student s1 = new GradStudent();
+     s1.getInfo();
+   }
+}
+
+class GradStudent extends Student {
+
+  public String getFood() {
+     return ""Taco"";
+  }
+
+}
+",What is the purpose of the `getInfo()` method in the `Student` class?,What is the output from running the main method in the Student class?
+,"public class Test1
+{
+   public static void main(String[] args)
+   {
+     boolean isRaining = true;
+     if (isRaining)
+     {
+        System.out.println(""Take an umbrella!"");
+     }
+     System.out.println(""Drive carefully"");
+   }
+}",How can you modify the code to take user input for the 'isRaining' variable instead of hardcoding its value?,Try changing the code above to boolean isRaining = false;. What will it print?
+,"public int result (int n)
+{
+	if (n == 1):
+		return 2;
+	else:
+		return 2*result (n - 1);
+}",Can you think of any alternative approaches to solve this problem without using recursion? How would the time complexity compare to the recursive solution?,What value is returned by the method call result (5)?
+,"public static double mystery(int[] arr)
+{
+   double output = 0;
+   for (int i = 0; i < arr.length; i++)
+   {
+      output = output + arr[i];
+   }
+   return output / arr.length;
+}",How would you modify the 'mystery' method to handle an input array of type double[] instead of int[]?,"What is returned from mystery when it is passed {10, 30, 30, 60}?"
+,"public static int factorial(int n)
+{
+   if (n == 0)
+      return 1;
+   else
+      return n * factorial(n-1);
+}
+",What happens if the input 'n' is a negative integer? Is there any error handling or validation needed for this scenario?,Given the method defined below what does the following return factorial(6)?
+,"public static int mystery(int n)
+{
+   if (n == 0)
+      return 1;
+   else
+      return 3 * mystery (n - 1);
+}
+",Can you suggest any modifications or improvements to the mystery method to handle a wider range of input values or improve its efficiency?,"Given the following method declaration, what value is returned as the result of the call mystery(5)?"
+,"public static int product(int n)
+{
+   if (n <= 1)
+      return 1;
+   else
+      return n * product(n - 2);
+}
+",Can you identify any possible improvements or potential edge cases that should be considered in the implementation of this function?,"Given the following method declaration, what value is returned as the result of the call product(5)?"
+,"public static void changeArray(int[] data)
+{
+   for (int k = data.length - 1; k > 0; k--)
+      data[k - 1] = data[k] + data[k - 1];
+}","How does the for loop in this code snippet work? Explain the loop variable `k`, its initialization, the loop condition, and the loop update.","Consider the following method changeArray. An array is created that contains {2, 8, 10, 9, 6} and is passed to changeArray. What are the contents of the array after the changeArray method executes?"
+"Consider the following methods:
+","public void inchesToCentimeters(double i)
+{
+    double c = i * 2.54;
+    printInCentimeters(i, c);
+}
+
+public void printInCentimeters(double inches, double centimeters)
+{
+    System.out.print(inches + ""-->"" + centimeters);
+}",Can you describe the purpose of the `inchesToCentimeters` method?,Assume that the method call inchesToCentimeters(10) appears in a method in the same class. What is printed as a result of the method call?
+,"String s = ""Georgia Tech"";
+String s1 = s.substring(0,7);
+String s2 = s1.substring(2);
+String s3 = s2.substring(0,3);
+System.out.println(s3);","What would be the output if the second line was changed to `String s1 = s.substring(2,9);`?
+",What is output from the following code?
+,"String s1 = ""baby"";
+String s2 = s1.substring(0,3);",What will be the value of `s2` after executing this code snippet?,What is the value of s2 after the following code executes?
+,"String s1 = ""Hi There"";
+String s2 = s1;
+String s3 = s2;
+String s4 = s1;
+s2 = s2.toLowerCase();
+s3 = s3.toUpperCase();
+s4 = null;","How would you describe the relationship between s1, s2, s3, and s4 throughout the code execution?","Given the following code segment, what is the value of s1 after the code executes?"
+,"String s1 = ""xy"";
+String s2 = s1;
+s1 = s1 + s2 + ""z"";",What happens when the variable `s2` is assigned the value of `s1`? What is the value of `s2` now?,"Given the following code segment, what is in the string referenced by s1?"
+,"String s1 = new String(""hi"");
+String s2 = new String(""bye"");
+String s3 = new String(""hi"");",What is the purpose of creating three separate String objects in this code snippet?,Which of the following is true after the code executes?

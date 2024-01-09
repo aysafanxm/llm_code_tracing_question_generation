@@ -1,0 +1,796 @@
+﻿Requirement,Code,Question1,Question2,,,,,,,,,,,,,,,,,,,,,,
+Consider the following Boolean expression in which the int variables x and y have been properly declared and initialized.,(x >= 10) == (y < 12),"Which of the following values for x and y will result in the expression evaluating to true ?
+","Can you think of any edge cases for this expression, and what would be the result in those cases?",,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,4,3,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,No,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,3,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,2,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,AI-generated,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+"Consider the following statement.
+",boolean x = (5 % 3 == 0) == (3 > 5);,"What is the value of x after the statement has been executed?
+",Explain the significance of the '==' and '!=' operators in the given code. How do they influence the final value of the boolean variable x?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,2,3,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,3,4,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,4,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,AI-generated,AI-generated,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"class SomeClass
+{
+    public SomeClass()
+    {
+        System.out.print(""Hello "");
+    }
+
+    void printSomething(String name)
+    {
+        System.out.print(""Hello "" + name + "" "");
+    }
+}
+
+public class MainClass
+{
+    public static void main(String[] args)
+    {
+        SomeClass someClass = new SomeClass();
+        someClass.printSomething(""Bob"");
+    }
+}",Assume that SomeClass and MainClass are properly defined in separate files. What is the output of the code in main()?,What is the output of this code when executed?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,3,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,3,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"for (int i = 0; i < 5; i++) {
+   for (int j = 0; j < 5; j++)
+      System.out.println(""*"");
+}",How many stars are output when the following code is executed?,What is the purpose of the inner loop in this code snippet?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,No,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,AI-generated,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"for (int i = 1; i < k; i++)
+{
+   if (arr[i] < someValue)
+   {
+     System.out.print(""HELLO"")
+   }
+}",Consider the following code. What is the maximum amount of times that HELLO could possibly be printed?,"If 'someValue' is set to 10 and the elements in the array 'arr' are {8, 12, 5, 3, 15}, how many times will the message ""HELLO"" be printed?",,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,No,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,4,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"for (int i = 3; i < 8; i++)
+{
+   System.out.print(i + "" "");
+}",What does the following code print?,"How would the output change if 'System.out.println()' were used instead of 'System.out.print()' in this code snippet?
+",,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"for (int i = 3; i <= 9; i++)
+{
+   System.out.print(""*"");
+}",How many times does the following method print a *?,What will be the final output of this code snippet when executed?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,4,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,AI-generated,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"for (int x = 2; x < 8; x++)
+{
+   System.out.print(""*"");
+}",How many times does the following method print a *?,"If we were to change the condition in the loop to 'x <= 8', how would this affect the output?",,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,No,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,4,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,4,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"if (score >= 90) grade = ""A"";
+if (score >= 80) grade = ""B"";
+if (score >= 70) grade = ""C"";
+if (score >= 60) grade = ""D"";
+else grade = ""E"";",What is the value of grade when the following code executes and score is 80?,"Can you identify any issues with the current code logic for assigning grades based on scores? If so, how would you modify the code to correct these issues?",,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,No,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"if (x < 0)
+{
+   System.out.println(""x is negative"");
+}
+else if (x == 0)
+{
+   System.out.println(""x is zero"");
+}
+else
+{
+   System.out.println(""x is positive"");
+}",What does the following code print when x has been set to 2000?,What is the output of this code if x = -5?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"if (x > 0 || (y / x) == 3)
+   System.out.println(""first case"");
+else
+   System.out.println(""second case"");",What is printed when the following code executes and x has been set to zero and y is set to 3?,What is the significance of using the '||' (OR) operator in this code? How would the output change if it were replaced with the '&&' (AND) operator?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,No,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+"Consider the following code segment which is intended to print out the even numbers from 0 to 8 (including 8).
+","int count = 0;
+/* missing loop header */
+{
+    if (count % 2 == 0)
+    {
+        System.out.println(count);
+    }
+    count++;
+}","Which of the following could replace the missing loop header to ensure that the code segment will work as intended to print out the even numbers from 0 to 8?
+","If the code inside the loop is executed with count = 4, what will be the output?",,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,No,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,4,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,4,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"int main()
+{
+	double num1, num2, num3, avg;
+	cout << “Enter the first number:”;
+	cin >> num1;
+	cout << “Enter the second number:”;
+	cin >> num2;
+	cout << “Enter the third number:”;
+	cin >> num3;
+	avg = num1 + num2 + num3 / 3;
+	cout << “The average is” << avg << ends;
+	return 0;
+}","The program would show me that the average is 40, that's the output, which is incorrect, because the average of 60, 10 plus 20 plus 30 divided by 3 should be 20. Instead it shows me 40, so why?",How would you correct the average calculation to ensure proper precedence of operations?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,No,No,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,1,3,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,4,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,2,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"int r = 1;
+int i = 1;
+while (i <= n):
+{r = r*a;
+i++;
+}","What does this code do for arbitrary values of a and n?
+(try a =2, n=4)",What does this code snippet aim to achieve? Can you determine its purpose based on the given code?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,4,4,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,No,No,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,4,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,AI-generated,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"int x = -5;
+while (x < 0)
+{
+   x++;
+   System.out.print(x + "" "");
+}","What does the following code print? (To trace through the code, keep track of the variable x and its value, the iteration of the loop, and the output every time through the loop.)",What is the condition for the while loop to execute?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,No,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,AI-generated,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"int x = 10;
+int y = 5;
+
+if (x % 2 == 0 && y % 2 == 0 || x > y)
+{
+    System.out.print(""First "");
+
+    if (y * 2 == x || y > 5 && x <= 10)
+    {
+       System.out.print(""Second "");
+    }
+    else
+    {
+       System.out.print(""Third "");
+    }
+}",Consider the following code segment. What is printed as a result of executing the code segment?,What is the initial value of variables x and y in this code snippet?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,3,2,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,No,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,3,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"int x = 3;
+int y = 2;
+if (y / x > 0)
+   System.out.print(""first "");
+   System.out.print(""second "");",What would the following print?,What is the expected output of this code snippet?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"int x = 4, y = 3;
+if (!(x < 3 || y > 2))
+{
+   System.out.println(""first case"");
+}
+else
+{
+   System.out.println(""second case"");
+}",What is printed when the following code executes and x equals 4 and y equals 3?,What is the value of the variables x and y before entering the if statement?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,4,4,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"int[] a = {7, 3, -1};
+
+public static int m1(int[] a)
+{
+   a[1]--;
+   return (a[1] * 2);
+}","Given the following field and method declaration, what is the value in a[1] when m1(a) is run?","In the 'return' statement, what is the result of the expression 'a[1] * 2'?",,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,3,3,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,3,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,4,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,AI-generated,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"int[][] matrix = { {1,1,2,2},{1,2,2,4},{1,2,3,4},{1,4,1,2}};
+
+int sum = 0;
+int col = matrix[0].length - 2;
+for (int row = 0; row < 4; row++)
+{
+   sum = sum + matrix[row][col];
+}","Given the following code segment, what is the value of sum after this code executes?",What would happen if the dimensions of the 'matrix' were changed to 3x3 or 5x5? Would the code still work as expected?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,4,4,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,No,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,4,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,4,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"List<Integer> aList = new ArrayList<Integer>();
+aList.add(new Integer(1));
+aList.add(new Integer(2));
+aList.remove(1);
+aList.add(1, new Integer(3));
+aList.set(1, new Integer(4));
+aList.add(new Integer(5));
+System.out.println(list);",What is printed as a result of executing the following code segment?,What is the final state of the ArrayList after adding the Integer 5?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"List<Integer> list1 = new ArrayList<Integer>();
+list1.add(new Integer(1));
+list1.add(new Integer(2));
+list1.add(new Integer(3));
+list1.remove(1);
+System.out.println(list1);
+",What will print when the following code executes?,How would you modify the code to store and handle floating-point numbers instead of integers?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,No,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"List<String> list1 = new ArrayList<String>();
+list1.add(""a"");
+list1.add(""b"");
+list1.add(0,""c"");
+list1.set(1, ""d"");
+list1.set(0, ""e"");
+list1.add(""b"");
+System.out.println(list1);
+","What would be the result if we remove the line list1.set(0, ""e"") from the code? How would it affect the final output?",What is printed as a result of executing the following code segment?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"private int[ ] a = {-10, -5, 1, 4, 8, 30};
+
+public void doubleLast()
+{
+
+   for (int i = a.length / 2; i < a.length; i++)
+   {
+      a[i] = a[i] * 2;
+   }
+}","If the array 'a' were changed to {-6, -3, 0, 3, 6, 12}, what would be the output after calling the 'doubleLast()' method?",Given the following values of a and the method doubleLast what will the values of a be after you execute doubleLast()?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,4,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,4,4,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,AI-generated,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"private int[ ] a = {1, 3, -5, -2};
+
+public void multAll(int amt)
+{
+   int i = 0;
+   while (i < a.length)
+   {
+      a[i] = a[i] * amt;
+      i++;
+   } // end while
+} // end method","How would you rewrite the `multAll` method using a `for` loop instead of a `while` loop?
+",What are the values in a after multAll(3) executes?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,No,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,3,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"private List<Integer> nums;
+
+//precondition: nums.size() > 0
+//nums contains Integer objects
+public void numQuest() {
+   int k = 0;
+   Integer zero = new Integer(0);
+   while (k < nums.size()) {
+      if (nums.get(k).equals(zero))
+         nums.remove(k);
+      k++;
+   }
+}
+","What will be the state of the 'nums' list after executing the 'numQuest()' method if the initial list contains the following integers: [5, 0, 10, 0, 15]?","Assume that nums has been created as an ArrayList object and initially contains the following Integer values [0, 0, 4, 2, 5, 0, 3, 0]. What will nums contain as a result of executing the following method numQuest?",,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"public class Base
+{
+   public void methodOne()
+   {
+     System.out.print(""A"");
+     methodTwo();
+   }
+
+   public void methodTwo()
+   {
+     System.out.print(""B"");
+   }
+}
+
+public class Derived extends Base
+{
+   public void methodOne()
+   {
+      super.methodOne();
+      System.out.print(""C"");
+   }
+
+   public void methodTwo()
+   {
+     super.methodTwo();
+     System.out.print(""D"");
+   }
+}
+","Can you trace the execution flow for the following code snippet?
+```
+Derived d = new Derived();
+d.methodTwo();
+```","Given the following class declarations, and assuming that the following declaration appears in a client program Base b = new Derived();, what is the result of the call b.methodOne();?",,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,3,3,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,4,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,3,3,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,AI-generated,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"public class DivisibleBy2or3
+{
+    private static boolean divCheck(int n)
+    {
+        if(n % 2 == 0 || n % 3 == 0)
+        {
+          return true;
+        }
+        return false;
+    }
+
+    public static void main(String[] args)
+    {
+        int[] arr = {6,7,17,3,2,9,1,5};
+        for (int i = 0; i < arr.length; i++)
+        {
+            if(divCheck(arr[i]))
+            {
+                int temp = arr[0];
+                arr[0] = arr[i];
+                arr[i] = temp;
+            }
+        }
+        for (int t = 0; t < arr.length; t++)
+        {
+            System.out.print((arr[t]) + "" "");
+        }
+    }
+}
+",What is the significance of the 'private static boolean' modifier in the divCheck() method?,What is printed when the following main method is executed?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,No,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"public class MethodTrace
+{
+  public int square(int x)
+  {
+      return x*x;
+  }
+  public int divide(int x, int y)
+  {
+        return x/y;
+  }
+  public static void main(String[] args) {
+      MethodTrace traceObj = new MethodTrace();
+      System.out.println( traceObj.square(2) + traceObj.divide(6,2) );
+  }
+ }","What would be the result of calling the `square` method with a negative number as the input, and why?",What does the following code print out?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,No,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"public class PrimeOrNot
+{
+    private static boolean check(int n)
+    {
+        for(int i = 2; i < n; i++)
+        {
+            if(n % i == 0)
+                return false;
+        }
+        return true;
+    }
+
+    public static void main(String[] args)
+    {
+        int[] arr = {5,3,2,9,3,4};
+        for (int i = 0; i < arr.length; i++)
+        {
+            if(check(arr[i]))
+            {
+                int temp = arr[0];
+                arr[0] = arr[i];
+                arr[i] = temp;
+            }
+        }
+        for (int t = 0; t < arr.length; t++)
+        {
+            System.out.print((arr[t]) + "","");
+        }
+    }
+}
+",What would happen if the 'check' method was called with the input value of '1'? Is this the expected behavior according to the definition of prime numbers?,What is printed when the following main method is executed?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,2,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,No,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,4,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,AI-generated,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"public class Student {
+   public String getFood() {
+      return ""Pizza"";
+   }
+   public String getInfo()  {
+      return this.getFood();
+   }
+}
+
+public class GradStudent extends Student {
+   public String getFood() {
+      return ""Taco"";
+   }
+}","What is the output of the following code snippet?
+
+```java
+GradStudent gs1 = new GradStudent();
+System.out.println(gs1.getFood());
+```","Given the following class declarations, what is the output from Student s1 = new GradStudent(); followed by s1.getInfo();?",,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,4,4,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,3,3,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,AI-generated,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Consider the following method.,"public double calculatePizzaBoxes(int numOfPeople, double slicesPerBox)
+{ /*implementation not shown */}",Can you describe a possible implementation for the `calculatePizzaBoxes` method based on the given requirement?,"Which of the following lines of code, if located in a method in the same class as calculatePizzaBoxes, will compile without an error?",,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,No,No,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,AI-generated,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"public int sum (int n)
+{
+	if (n -- 1):
+		return 1;
+	else:
+		return n + sum (n-1);
+}","Based on this code snippet, can you infer any programming concepts or techniques that the student is trying to demonstrate or practice?","What value if returned by the method call sum(5)
+",,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,1,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,No,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,1,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,1,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,1,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"public static int binarySearch(int[] elements, int target) {
+   int left = 0;
+   int right = elements.length - 1;
+   while (left <= right)
+   {
+      int middle = (left + right) / 2;
+      if (target < elements[middle])
+      {
+         right = middle - 1;
+      }
+      else if (target > elements[middle])
+      {
+         left = middle + 1;
+      }
+      else {
+         return middle;
+      }
+    }
+    return -1;
+}","If the input array 'elements' contains duplicate values, and the target is one of the duplicates, which index of the target value will the binarySearch function return?","Consider the binarySearch method below. How many times would the while loop execute if you first do int[] arr = {2, 10, 23, 31, 55, 86} and then call binarySearch(arr,2)?",,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,4,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+"Find the odd int
+Given an array of integers, find the one that appears an odd number of times.
+
+There will always be only one integer that appears an odd number of times.
+
+Examples
+
+[7] should return 7, because it occurs 1 time (which is odd).
+[0] should return 0, because it occurs 1 time (which is odd).
+[1,1,2] should return 2, because it occurs 1 time (which is odd).
+[0,1,0,1,0] should return 0, because it occurs 3 times (which is odd).
+[1,2,2,3,3,3,4,3,3,3,2,2,1] should return 4, because it appears 1 time (which is odd).","public static int find_it(int[] seq) 
+  {
+            var oddInt = seq.GroupBy(x => x)
+                        .Where(x => x.Count() > 1 && x.Count() % 2 != 0)
+                        .Select(x => x.Key).FirstOrDefault();
+    
+        return oddInt;
+  }{
+var oddInt = seq.GroupBy(x => x)
+.Where(x => x.Count() > 1 && x.Count() % 2 != 0)
+.Select(x => x.Key).FirstOrDefault();
+return oddInt;
+}""","If the input array contains only one integer, say [7], what will be the output and why?","What if there is only 1 occurance of number -1 ? Your code wouldn't catch it, but it's valid.",,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,1,1,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,No,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,1,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,1,1,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,1,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"public static int mystery(int[] elements, int target)
+ {
+   for (int j = 0; j < elements.length; j++)
+   {
+      if (elements[j] == target)
+      {
+         return j;
+      }
+  }
+  return -1;
+}",What is the significance of returning -1 in the 'mystery' function?,"What would the following code return from mystery([90, -30, 50], 50)?",,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,No,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"public static int product(int n)
+{
+   if(n == 1)
+      return 1;
+   else
+      return n * product(n - 2);
+}",How does the function 'product' handle the input value n = 1?,What is the value of n when this method stops calling itself (when it reaches the base case)?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,3,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"public static void copyArray(int[] arr1, int[] arr2)
+{
+   for (int i = arr1.length / 2; i < arr1.length; i++)
+   {
+      arr1[i] = arr2[i];
+   }
+}",Can you identify any potential issues or limitations with this code snippet when used in a basic calculator program? How can the code be improved to address these issues?,"Assume that arr1={1, 5, 3, -8, 6} and arr2={-2, -1, -5, 3, -4} what will the contents of arr1 be after copyArray finishes executing?",,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,4,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,No,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,4,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,4,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,AI-generated,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"public void mystery(int[] a, int i)
+{
+   a[i] = a[i-1] * 2;
+}",How can you modify the code to handle the edge case when `i` is `0` or less?,"Consider the following method. Given an array initialized to {4, 10, 15}, which of the following represents the contents of the array after a call to mystery(array, 2)?",,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,No,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,AI-generated,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"String s1 = ""abccba"";
+int pos = s1.indexOf(""b"");","What does the `indexOf()` method do in Java, and how is it used in this code snippet?",What is the value of pos after the following code executes?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,No,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,AI-generated,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"String s1 = ""baby"";
+String s2 = s1.substring(2);","Suppose we have another variable `String s4 = """"baby"""";`, how can we compare if `s1` and `s4` have the same content?
+",What is the value of s2 after the following code executes?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,1,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"String s1 = ""Hi"";
+String s2 = ""Bye"";
+int answer = s1.compareTo(s2);","If the value of `s1` is changed to ""Hello"" and `s2` is changed to ""Hello"", what would be the value of `answer`?",What is the value of answer after the following code executes?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,4,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"String s1 = ""xyz"";
+String s2 = s1;
+String s3 = s2;
+
+I.   s1.equals(s3)
+II.  s1 == s2
+III. s1 == s3","If we change the value of s2 to ""abc"", how would it affect the values of s1 and s3, and what would be the result of comparisons I, II, and III now?","After the following code is executed, which of I, II and/or III will evaluate to true?",,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,No,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,4,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,AI-generated,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",,X,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,"String s1 = new String(""hi"");
+String s2 = new String(""bye"");
+String s3 = new String(""hi"");
+s2 = s1;","If we add a line `s1 = s1.toUpperCase();` after `s2 = s1;`, what will be the values of `s1`, `s2`, and `s3` after executing the entire code?",Which of the following is true after the code executes?,,,,,,,,,,,,,,,,,,,,,,
+,1. Relevance to Learning Objectives: The question is relevant to the learning objectives of an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,2. Tracing or not: Is this a tracing question?,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,
+,3. Clarity of the Question: The question presented is clear and the language used in the question easy to understand.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,4. Difficulty Level: The difficulty level of the question is appropriate for an introductory programming course.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,5. Relevance of the Question to the Given Code Snippet: The question is appropriately relate to the code snippet provided in the question.,5,5,,,,,,,,,,,,,,,,,,,,,,
+,6. Ability to Distinguish Human-Authored from Automatically Generated Questions: Can you tell if the question is human-authored or automatically generated?,Human-created,Human-created,,,,,,,,,,,,,,,,,,,,,,
+,"7. I think this is a better tracing question. (Put an ""X"" in the corresponding cell for the better question)",X,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
